@@ -1,0 +1,2 @@
+http\://adonis/schema/rpc-service=cn.adonis.rpc.spring.RemoteServiceNamespaceHandler
+http\://adonis/schema/rpc-reference=cn.adonis.rpc.spring.RemoteReferenceNamespaceHandler

@@ -1,0 +1,64 @@
+package cn.adonis.rpc.model;
+
+public class RpcRequest {
+    //UUID,唯一标识一次返回值
+    private String uniqueKey;
+    //服务提供者信息
+    private ProviderService providerService;
+    //调用的方法名称
+    private String methodName;
+    //传递参数
+    private Object[] args;
+    //消费端应用名
+    private String appName;
+    //消费请求超时时长
+    private long timeout;
+
+    public String getUniqueKey() {
+        return uniqueKey;
+    }
+
+    public void setUniqueKey(String uniqueKey) {
+        this.uniqueKey = uniqueKey;
+    }
+
+    public ProviderService getProviderService() {
+        return providerService;
+    }
+
+    public void setProviderService(ProviderService providerService) {
+        this.providerService = providerService;
+    }
+
+    public String getMethodName() {
+        return methodName;
+    }
+
+    public void setMethodName(String methodName) {
+        this.methodName = methodName;
+    }
+
+    public Object[] getArgs() {
+        return args;
+    }
+
+    public void setArgs(Object[] args) {
+        this.args = args;
+    }
+
+    public String getAppName() {
+        return appName;
+    }
+
+    public void setAppName(String appName) {
+        this.appName = appName;
+    }
+
+    public long getTimeout() {
+        return timeout;
+    }
+
+    public void setTimeout(long timeout) {
+        this.timeout = timeout;
+    }
+}

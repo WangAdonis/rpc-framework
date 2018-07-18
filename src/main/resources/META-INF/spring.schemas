@@ -1,0 +1,2 @@
+http\://adonis/schema/rpc-service.xsd=META-INF/remote-service.xsd
+http\://adonis/schema/rpc-reference.xsd=META-INF/remote-reference.xsd
